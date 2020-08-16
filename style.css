@@ -1,25 +1,28 @@
 * {
-    box-sizing: border-box;
-    margin: 1rem;
-    padding: 0rem;
+    box-sizing: content-box;
 }
 .page-header h1 {
     background-color: rgb(158, 114, 114);
     color: white;
     border-color: saddlebrown;
-    border-width: 0 0 5px 0;
     border-style: groove;
-    border-radius: 10;
     padding: 0rem 0rem;
-    
 }
 .page-header h2 {
     color: maroon;
-    border-width: 0 0 0 0;
+    border-width: 1 1 1 1;
 }
+.navigation-menu li {
+    list-style: none;
+    display: inline-block;
+
 p {
     font-style: normal;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media screen{
+    display: flex;
+
 }
 
 
