@@ -1,0 +1,63 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+
+}
+.left-side {
+    display: flex;
+    color: gray;
+    margin-right: 20px;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navlinks a {
+    color: gray;
+    height: 22px;
+   
+}
+
+.name {
+    display: flex;
+    color: gray;
+    margin-left: 10px;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-right {
+    color: black;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-left {
+    
+    margin-top: 62px;
+    margin-right: 20px;
+    
+}
+.content-right-projects {
+    color: darkblue;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-left-projects {
+    color: maroon;
+    margin-top: 100px;
+    margin-right: 20px;
+    
+}
+
+a {
+    color: darkred;
+}
+
+
+
